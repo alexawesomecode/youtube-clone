@@ -85,3 +85,40 @@ nav img {
 .owner-description span {
     width: 1rem;
 }
+
+.preview-description {
+
+    padding: 5px;
+    margin: 5px;
+}
+.preview {
+
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.preview-description span {
+
+    font-size: 15px;}
+
+.preview-description p {
+
+    font-size: 20px;
+    font-weight: bold;}
+.preview img {
+
+    height: 8rem;}
+
+.avatars {
+    height: 100%;
+    display: flex;
+}
+
+.avatars img {
+
+    padding: 3px;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;}

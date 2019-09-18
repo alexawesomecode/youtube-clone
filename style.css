@@ -38,12 +38,12 @@ nav img {
 }
 
 .action-section {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-left: 13px;
-    margin-right: 20px;
-    margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 13px;
+  margin-right: 20px;
+  margin-bottom: 5px;
 }
 
 .row {
@@ -138,13 +138,19 @@ nav img {
 }
 
 .owner-info {
-    margin-left: 9px;
+  margin-left: 9px;
 }
 
-.owner-info p{
-    margin-bottom: 8px;
-    font-size: 19px;
-    font-weight: 600;
+.owner-info p {
+  margin-bottom: 8px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.avatar-icon {
+    margin-left: 2rem;
+  border: 1px solid;
+  border-radius: 56px;
 }
 
 @media screen and (max-width: 800px) {
@@ -156,5 +162,17 @@ nav img {
   }
   .preview {
     margin-top: 1rem;
+  }
+
+  nav img {
+      width: 5rem;
+      margin-left: -2rem;
+  }
+  .input-search {
+      display: none;
+  }
+
+  .avatars img {
+      margin-left: 1rem;
   }
 }

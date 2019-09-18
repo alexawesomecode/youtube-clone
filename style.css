@@ -76,12 +76,11 @@ nav img {
   margin-top: 1rem;
   margin-left: 1rem;
   display: flex;
-  width: 30%;
-  align-items: center;
+  width: 100%;
 }
 
 .owner-description img {
-  width: 30%;
+  width: 10%;
   border: 1px solid;
   border-radius: 56px;
   padding-top: 11px;
@@ -146,6 +145,27 @@ nav img {
     font-size: 19px;
     font-weight: 600;
 }
+
+.video-views  {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.video-views p {
+
+    color: gray;
+    font-size: 1.7rem;
+}
+.action-box {
+
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+.action-box button {
+    
+    width: 4rem;
+    color: gray;}
 
 @media screen and (max-width: 800px) {
   .row {

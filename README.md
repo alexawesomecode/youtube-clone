@@ -9,7 +9,7 @@ HTML and, CSS, Stylint
 
 
 ## Setup
-How to setup a repo of this page on your local machine:
+How to setup a repo of this page on your local machine:  
 
 >git clone https://github.com/alexawesomecode/youtube-clone/
 
